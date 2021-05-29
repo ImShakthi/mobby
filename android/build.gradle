@@ -34,5 +34,12 @@ allprojects {
         google()
         jcenter()
         maven { url 'https://www.jitpack.io' }
+        mavenCentral()
     }
+    dependencies {
+        debugImplementation 'com.facebook.flipper:flipper:0.91.2'
+        debugImplementation 'com.facebook.soloader:soloader:0.10.1'
+
+        releaseImplementation 'com.facebook.flipper:flipper-noop:0.91.2'
+}
 }

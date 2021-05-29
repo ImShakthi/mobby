@@ -45,7 +45,7 @@ const App: () => Node = () => {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
-  return <Section title="Hi Shakthi!!!" />;
+  return <Section title="Hi Awesome!!!" />;
 };
 
 const styles = StyleSheet.create({
